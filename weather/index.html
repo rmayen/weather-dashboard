@@ -8,6 +8,8 @@
 </head>
 <body>
     <div class="weather-container">
+        <h2 class="app-title">Weather Dashboard</h2>
+
         <!-- Search Box -->
         <div class="search-box">
             <input type="text" id="search-box" placeholder="Enter a city..." class="search-input">
@@ -15,8 +17,9 @@
         </div>
 
         <!-- Current Weather Display -->
-        <div class="current-weather">
+        <div class="current-weather" style="display: none;">
             <h1 id="city-name" class="city-name"></h1>
+            <img id="weather-icon" class="weather-icon" style="display: none;" alt="Weather icon">
             <div class="weather-info">
                 <p id="weather-description" class="weather-description"></p>
                 <p id="temperature" class="temperature"></p>
@@ -29,7 +32,6 @@
 
         <!-- Weather Forecast -->
         <div class="weather-forecast" id="weather-forecast">
-            <!-- Forecast items will be dynamically inserted here -->
         </div>
     </div>
 

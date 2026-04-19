@@ -19,19 +19,21 @@ Developed as a personal project to practice working with third-party REST APIs, 
 
 ## Features
 
-- **City search** - Look up weather for any city worldwide
-- **Current temperature** - Displays temperature in Celsius
+- **City search** - Look up weather for any city worldwide with Enter key support
+- **Current temperature** - Displays temperature in Celsius with weather icon
 - **Weather description** - Shows current weather conditions (e.g., clear sky, light rain)
-- **Additional details** - Humidity and wind speed display
-- **Clean UI** - Card-based layout with a modern color scheme and responsive design
-- **Forecast section** - Layout prepared for extended weather forecast display
+- **Additional details** - Humidity and wind speed display with visual separator
+- **Error handling** - User-friendly error messages for invalid cities or API issues
+- **Loading states** - Visual feedback while fetching data
+- **Clean UI** - Card-based layout with modern color scheme, rounded corners, and focus states
+- **Input validation** - Empty search prevention and URL encoding for special characters
 
 ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rmayen/Weatherapp.git
-   cd Weatherapp/weather
+   git clone https://github.com/rmayen/weather-dashboard.git
+   cd weather-dashboard/weather
    ```
 2. Open `index.html` in any modern web browser.
 3. **API Key Setup**: Open `script.js` and replace `'YOUR_API_KEY'` with your own API key from [OpenWeatherMap](https://openweathermap.org/api) (free tier available).
@@ -40,7 +42,7 @@ Developed as a personal project to practice working with third-party REST APIs, 
 ## Project Structure
 
 ```
-Weatherapp/
+weather-dashboard/
 └── weather/
     ├── index.html    # Main page with search box and weather display
     ├── script.js     # API calls and DOM updates
