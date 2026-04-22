@@ -33,20 +33,19 @@ Developed as a personal project to practice working with third-party REST APIs, 
 1. Clone the repository:
    ```bash
    git clone https://github.com/rmayen/weather-dashboard.git
-   cd weather-dashboard/weather
+   cd weather-dashboard
    ```
-2. Open `index.html` in any modern web browser.
-3. **API Key Setup**: Open `script.js` and replace `'YOUR_API_KEY'` with your own API key from [OpenWeatherMap](https://openweathermap.org/api) (free tier available).
+2. **API Key Setup**: Open `script.js` and replace `'YOUR_API_KEY'` with your own API key from [OpenWeatherMap](https://openweathermap.org/api) (free tier available).
+3. Open `index.html` in any modern web browser.
 4. Search for any city to see current weather data.
 
 ## Project Structure
 
 ```
 weather-dashboard/
-└── weather/
-    ├── index.html    # Main page with search box and weather display
-    ├── script.js     # API calls and DOM updates
-    └── style.css     # Responsive styling and layout
+├── index.html    # Main page with search box and weather display
+├── script.js     # API calls and DOM updates
+└── style.css     # Responsive styling and layout
 ```
 
 ## Screenshot
